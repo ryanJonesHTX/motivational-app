@@ -10,12 +10,9 @@
 
 body{
     background: url(/images/climb.jpg) no-repeat center center fixed;
-    padding: 100px;
+    padding: 50px 50px 0 50px;
     margin: 0px auto;
     height: 100vh;
-    display: grid;
-     grid-template-rows: 100px 1fr;
-     gap: 100px;
 }
 
 /* hamburger menu */
@@ -29,7 +26,7 @@ body{
   }
   .nav-icon-3 span{
     grid-area: a;
-    background-color:rgb(255, 255, 255);
+    background-color: darkgray;
     position: absolute;
     border-radius: 2px;
     transition: .3s cubic-bezier(.8, .5, .2, 1.4);
@@ -126,11 +123,15 @@ body{
   li{
     font-weight: 700;
     border-radius: 10px;
-    opacity:0.8;
+    opacity:0.75;
 
   }
   li:hover{
   opacity: 1;
+  }
+  .selected{
+    opacity: 0.9;
+    border: 1px solid white;
   }
    /* hidden */
   .hidden{
@@ -143,7 +144,7 @@ body{
     background-color: rgba(0, 0, 0, 0.1);
     padding: 10px;
     border-radius: 50px;
-    opacity: 0.5;
+    opacity: 0.7;
     text-align: center;
     color: darkgray;
     font-weight: 200;
@@ -159,7 +160,7 @@ body{
     -moz-border-radius: 100px;
     
     position: relative;
-    margin: 120px auto 20px;
+    margin: 50px auto;
   }
   h1:after, h1:before {
     content: '';
@@ -182,10 +183,12 @@ body{
     -moz-border-radius: 200px;
   }
    .container{
+    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin: 10vh auto 10vh auto;
    }
    button{
     background-color: hsla(50,72%,92%,.1);
@@ -195,14 +198,24 @@ body{
     border-radius: 20px;
     font-weight: 400;
     font-size: 20px;
-    color: lightgray;
+    color: gray;
+    border-color: lightgray;
+   }
+   button:hover{
+    cursor: pointer;
    }
    li{    
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.3);
     padding: 10px;
     color: rgb(255, 255, 255);
     border-radius: 20px;
    }
+  .home{
+    position: absolute;
+    top: .2vh;
+    left: .1vw;
+    color: gray;
+  }
 
 /* quote */
 .hide{
