@@ -13,7 +13,7 @@ body{
     padding: 50px 50px 0 50px;
     margin: 0px auto;
     height: 100vh;
-    background-position: right;
+    background-position: right -100px;
 }
 
   /* list of categories */
@@ -141,5 +141,5 @@ span{
   color: rgb(49, 49, 204);
   font-size: 23px;
   font-weight: 500;
-  
+  width: 800px;
 }
