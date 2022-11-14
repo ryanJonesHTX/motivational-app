@@ -15,7 +15,18 @@ body{
     height: 100vh;
     background-position: right -100px;
 }
-
+.school{
+  background-image: url(/images/school.jpg);
+  background-size: cover;
+}
+.work{
+  background-image: url(/images/work.jpg);
+  background-size: cover;
+}
+.hype{
+  background-image: url(/images/hype.jpg);
+  background-size: cover;
+}
   /* list of categories */
   nav{
     align-items: center;
@@ -52,7 +63,7 @@ body{
    /* container */
    h1 {
     width: 350px; height: 120px;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 50px;
     opacity: 0.7;
@@ -142,4 +153,8 @@ span{
   font-size: 23px;
   font-weight: 500;
   width: 800px;
+  text-align: center;
+}
+.name{
+  text-align: center;
 }
