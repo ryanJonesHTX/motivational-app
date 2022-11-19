@@ -15,6 +15,9 @@ MongoClient.connect(dbConnectionStr, { useUnifiedTopology: true }).then(
   (client) => {
     console.log(`Connected to the ${dbName} Database`)
     db = client.db(dbName)
+    app.listen(process.env.PORT || PORT, () => {
+      console.log(`listening on ${PORT}`)
+    })
   }
 )
 
@@ -128,6 +131,6 @@ app.delete('/deleteQuote', (req, res) => {
     .catch((error) => console.error(error))
 })
 
-app.listen(process.env.PORT || PORT, () => {
-  console.log(`listening on ${PORT}`)
-})
+// app.listen(process.env.PORT || PORT, () => {
+//   console.log(`listening on ${PORT}`)
+// })
