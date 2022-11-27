@@ -1,7 +1,7 @@
 # Rev Up
 Full-stack app that generates daily motivational quotes over five categories. Team project with [Gian Carnero](https://github.com/juhjuhjuhgian), [Ryan Jones](https://github.com/ryanJonesHTX), and [Rachel Shin](https://github.com/rachelshin).
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+[**Link to project**](http://unusual-zipper-wasp.cyclic.app/)
 
 ![gif of project pages](public/images/project.gif)
 
